@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ajay | iOS Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Top Bar -->
+  <header class="navbar">
+    <div class="brand">
+      <!-- <div class="logo">A</div>
+      <h1>Ajay</h1> -->
+    </div>
+    <div class="TopMenu">
+      <nav class="nav-links">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#contact" class="nav-link">Contact Me</a>
+        <a href="Ajay_iOS_App_Developer.pdf" download class="download-btn">
+          <img src="Images/download.png" alt="Download" class="icon">
+          Resume
+        </a>
+
+      </nav>
+    </div>
+    <div class="brand">
+      <!-- <button id="theme-toggle" class="theme-btn">☀️</button> -->
+    </div>
+  </header>
+
+
+  <!-- About Me -->
+  <section id="home" class="section home">
+    <div class="intro">
+      <h1>Hi, I'm <span>Ajay</span> 👋</h1>
+      <ul>
+        <li>I have 4+ years of Experience in iOS App development with both UIKit and Swift UI using both MVC and MVVM
+          patterns.</li>
+        <li>I worked on 8+ products like E-commerce, Taxi booking, Food Delivery, Parcel delivery, Space Rentals, Car
+          Rentals, and Boat rentals.</li>
+        <li>And also i worked on 50+ service Projects based on the Products. And then I worked on some frameworks like
+          Firebase, Google Maps and MapBox.</li>
+        <li>We used Firebase for the Push Notifications and instant Messages update, while conversations were updated
+          using
+          the real-time Database.</li>
+        <!-- <li>And we used Google Maps and Mapbox for navigation purposes on apps like Taxi booking and food delivery parcel
+        delivery apps.</li> -->
+        <li>And then I also worked with some payment gateways like Stripe, PayPal. Some payment gateways are SDKs, and
+          some
+          are Web-based payments.</li>
+      </ul>
+
+      <div class="buttons">
+        <a href="#projects" class="btn primary">Resume</a>
+        <a href="#contact" class="btn secondary">Contact Me</a>
+        <a href="#contact" class="btn secondary">Location Chennai, India</a>
+      </div>
+
+      <div class="buttons">
+        <a href="#contact" class="btn secondary">Role iOS App Developer</a>
+        <a href="#contact" class="btn secondary">Education B.E ECE</a>
+      </div>
+
+    </div>
+
+    <div class="spacer"></div> <!-- acts like SwiftUI Spacer() -->
+
+    <div class="image-gradient">
+      <img src="Images/memoji-smile.webp" alt="memoji-smile" width="200" height="200">
+    </div>
+  </section>
+
+  <section id="achivement" class="section achivement">
+    <div class="innerAchive">
+      <div class="achive-item">
+        <a href="#experience" class="achive-link">
+          <span class="achive-number" data-target="4">0</span>
+        </a>
+        <span class="achive-label">YEARS OF EXPERIENCE</span>
+      </div>
+      <div class="achive-item">
+        <a href="#experience" class="achive-link">
+          <span class="achive-number" data-target="8">0</span>
+        </a>
+        <span class="achive-label">PRODUCTS</span>
+      </div>
+      <div class="achive-item">
+        <a href="#experience" class="achive-link">
+          <span class="achive-number" data-target="5">0</span>
+        </a>
+        <span class="achive-label">FROM SCRATCH</span>
+      </div>
+      <div class="achive-item">
+        <a href="#experience" class="achive-link">
+          <span class="achive-number" data-target="53">0</span>
+        </a>
+        <span class="achive-label">CLONE PROJECTS</span>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="skills" class="section skills">
+    <h1>Expertise</h1>
+
+    <div class="timeline">
+
+      <!-- Frameworks / Languages -->
+      <div class="timeline-item">
+        <h2>Frameworks / Languages</h2>
+        <div class="skills-grid"></div>
+      </div>
+
+      <!-- Plugins -->
+      <div class="timeline-item">
+        <h2>Plugins</h2>
+        <div class="skills-grid"></div>
+      </div>
+
+      <!-- API Service -->
+      <div class="timeline-item">
+        <h2>API Service</h2>
+        <div class="skills-grid"></div>
+      </div>
+
+      <!-- Payment Gateway -->
+      <div class="timeline-item">
+        <h2>Payment Gateway</h2>
+        <div class="skills-grid"></div>
+      </div>
+
+      <!-- Database -->
+      <div class="timeline-item">
+        <h2>Database</h2>
+        <div class="skills-grid"></div>
+      </div>
+
+
+      <!-- Crash Reporting -->
+      <div class="timeline-item">
+        <h2>Crash Reporting</h2>
+        <div class="skills-grid"></div>
+      </div>
+
+
+      <!-- Testing -->
+      <div class="timeline-item">
+        <h2>Testing</h2>
+        <div class="skills-grid"></div>
+      </div>
+
+      <!-- Deployment -->
+      <div class="timeline-item">
+        <h2>Deployment</h2>
+        <div class="skills-grid"></div>
+      </div>
+
+      <!-- Version Control -->
+      <div class="timeline-item">
+        <h2>Version Control</h2>
+        <div class="skills-grid"></div>
+      </div>
+
+
+      <!-- Tools & Utilities -->
+      <div class="timeline-item">
+        <h2>Tools & Utilities</h2>
+        <div class="skills-grid"></div>
+      </div>
+
+
+      <!-- Project Management Tools -->
+      <div class="timeline-item">
+        <h2>Project Management Tools</h2>
+        <div class="skills-grid"></div>
+      </div>
+
+
+
+    </div>
+  </section>
+
+  <script>
+    // Arrays for each section
+    const skillsData = [
+      [
+        { name: "Swift", icon: "Images/swift.png" },
+        { name: "SwiftUI", icon: "Images/swiftui.png" },
+        { name: "UIKit", icon: "Images/uikit.png" },
+        { name: "Cocopods", icon: "Images/cocopods.png" },
+      ],
+      [
+        { name: "Firebase", icon: "Images/firebase.png" },
+        { name: "Google Map", icon: "Images/googlemaps.png" },
+      ],
+      [
+        { name: "REST Api", icon: "Images/api.png" },
+      ],
+      [
+        { name: "Razorpay", icon: "Images/razorpay.png" },
+        { name: "Stripe", icon: "Images/stripe.png" },
+        { name: "Google Pay", icon: "Images/googlepay.png" },
+      ],
+      [
+        { name: "Core Data", icon: "Images/core.png" },
+        { name: "Swift Data", icon: "Images/swiftdata.png" },
+        { name: "Firebase Firestore", icon: "Images/firestore.png" },
+        { name: "Firebase realtime database", icon: "Images/realtimedatabase.png" },
+      ],
+      [
+        { name: "Firebase Crashlytics", icon: "Images/crashlytics.png" },
+      ],
+      [
+        { name: "Unit Tests", icon: "Images/unittest.png" },
+      ],
+      [
+        { name: "App Store", icon: "Images/appstore.png" },
+      ],
+      [
+        { name: "Git Lab", icon: "Images/gitlab.png" },
+        { name: "Github", icon: "Images/github.webp" },
+      ],
+      [
+        { name: "XCode", icon: "Images/Xcode_icon.png" },
+        { name: "Postman", icon: "Images/postman.png" },
+      ],
+
+      [
+        { name: "Jira", icon: "Images/jira.png" },
+        { name: "Slack", icon: "Images/slag.png" },
+      ]
+
+
+    ];
+
+    // Get all .skills-grid elements
+    const grids = document.querySelectorAll(".skills-grid");
+
+    // Populate each grid with its corresponding array
+    grids.forEach((grid, index) => {
+      const skills = skillsData[index]; // match the array to the grid
+      skills.forEach(skill => {
+        const card = document.createElement("div");
+        card.classList.add("skill-card");
+        card.innerHTML = `
+        <img src="${skill.icon}" alt="${skill.name}" class="skill-icon">
+        <span>${skill.name}</span>
+      `;
+        grid.appendChild(card);
+      });
+    });
+  </script>
+
+
+
+
+  <!-- Projects -->
+  <section id="projects" class="section projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>WeatherNow</h3>
+        <p>A SwiftUI weather app using real-time API and animated backgrounds.</p>
+      </div>
+      <div class="project-card">
+        <h3>ChatMate</h3>
+        <p>Modern chat UI with Firebase backend and message bubbles.</p>
+      </div>
+      <div class="project-card">
+        <h3>Fitness Tracker</h3>
+        <p>Track workouts and progress using Core Data and HealthKit.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Experience -->
+  <section id="experience" class="section experience">
+    <h2>Experience</h2>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <h3>SIVACERULEAN TECHNOLOGIES — IOS App Developer</h3>
+        <span>Aug 2024 – Present</span>
+        <ul>
+          <li>Leading the redevelopment of a Bank Employee App, migrating from UIKit MVC to SwiftUI + MVVM.</li>
+          <li>Sole developer managing coding, testing, and publishing on the Test Flight and App Store.</li>
+          <li>Built workflows such as Loan Calculation, Real Time Chat, Circular Module, Exam Module, Visit Module, and
+            Offer Module.</li>
+          <li>Sole developer managing coding, testing, and publishing on the App Store.</li>
+          <li>Built workflows such as Loan Calculation, Visit Module, and Offer Module.</li>
+          <li>Implemented common API services, centralized localization, and SwiftData caching for faster API response.
+          </li>
+          <li>Resolved crashes and memory leaks, ensuring smoother performance and reliability.</li>
+          <li>Integrated Firebase Crashlytics and real-time logging for analytics and debugging.</li>
+          <li>Enhanced UI with custom SwiftUI components, Dark mode, and Responsive layouts for Iphone and Ipad.</li>
+        </ul>
+
+        <section id="experience" class="apps">
+          <h1>Apps</h1>
+          <div class="apps-grid" id="appsGrid1"></div>
+        </section>
+
+      </div>
+
+      <div class="timeline-item">
+        <h3>ZAAR TECHNOLOGIES — IOS App Developer</h3>
+        <span>May 2024 - Aug 2024</span>
+        <ul>
+          <li>Developed a complete E-Commerce iOS application using SwiftUI with Blockchain api integration for secure.
+          </li>
+          <li>Focused on UI responsiveness, state management, and API optimization.</li>
+          <li>Collaborated with backend teams to ensure data security and real-time updates.</li>
+          <li>Developed a complete E-Commerce iOS application using SwiftUI with blockchain integration for secure
+            transactions.</li>
+          <li>Focused on UI responsiveness, state management, and API optimization.</li>
+          <li>Collaborated with backend teams to ensure data security and real-time updates.</li>
+
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <h3>TRIOANGLE TECHNOLOGY — IOS App Developer</h3>
+        <span>Nav 2021 – Apr 2024</span>
+        <ul>
+          <li>Developed and maintained multiple on-demand and E-commerce iOS applications using Swift, UIKit, and Xcode.
+          </li>
+          <li>Built scalable, feature-rich applications with RESTful API, Firebase, payment gateway, and multi-language
+            support.</li>
+          <li>Delivered production-ready apps across multiple verticals: Taxi Booking, Food Delivery, Room Rent, Space
+            Rent,
+            and Car Rental.</li>
+          <li>Managed version control, testing, and deployment for all projects.</li>
+          <li>Gofer– On-demand service booking app with live tracking and secure payments.</li>
+          <li>Gofer Delivery / Gofer Delivery All / Gofer Jek – Multi-service delivery platforms (food, parcel,
+            grocery).</li>
+          <li>Makent / Makent Space / Makent Cars / Makent Boats– Rental marketplace apps for property, space, car, and
+            boat sharing.</li>
+          <li>CliqBuy– Full-featured E-Commerce platform with product catalog, order tracking, and checkout system.</li>
+        </ul>
+
+        <section id="experience" class="apps">
+          <h1>Apps</h1>
+          <div class="apps-grid" id="appsGrid2"></div>
+        </section>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Contact Me -->
+  <section id="contact" class="section ContactMe">
+
+    <div class="Contact-me">
+
+      <div class="intro">
+
+        <div class="image-gradient">
+          <img src="Images/memoji-smile.webp" alt="memoji-smile" width="150" height="150">
+        </div>
+
+        <h1>Hi, I'm <span>Ajay</span> 👋</h1>
+        <p>I'm an iOS Developer passionate about building sleek, user-friendly mobile apps using Swift, SwiftUI, and
+          modern UI/UX practices.
+        </p>
+
+        <div class="buttons">
+          <img src="Images/whatsapp.png" alt="whatsapp" width="50" height="50">
+          <img src="Images/linkedin.png" alt="linkedin" width="50" height="50">
+          <img src="Images/swiftui.png" alt="swiftui" width="50" height="50">
+          <img src="Images/firebase.png" alt="firebase" width="50" height="50">
+        </div>
+
+        <div class="buttons">
+          <a href="#contact" class="btn secondary">Role iOS App Developer</a>
+          <a href="#contact" class="btn secondary">Education B.E ECE</a>
+        </div>
+
+      </div>
+
+
+      <div class="intro">
+
+        <h1>Hi, I'm <span>Ajay</span> 👋</h1>
+        <div class="buttons">
+          <a href="#projects" class="btn primary">Resume</a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
+          <a href="#contact" class="btn secondary">Location Chennai, India</a>
+        </div>
+
+        <div class="buttons">
+          <a href="#contact" class="btn secondary">Role iOS App Developer</a>
+          <a href="#contact" class="btn secondary">Education B.E ECE</a>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Ajay. All Rights Reserved.</p>
+  </footer>
+
+
+  <!-- Java Scripts -->
+
+  <!-- Dark Mode Button -->
+  <script>
+    const toggle = document.getElementById('theme-toggle');
+    const html = document.documentElement;
+
+    toggle.addEventListener('click', () => {
+      const current = html.getAttribute('data-theme');
+      const next = current === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      toggle.textContent = next === 'dark' ? '☀️' : '🌙';
+    });
+  </script>
+
+
+  <!-- Top Bar Actions -->
+  <script>
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll(".nav-links a");
+
+    window.addEventListener("scroll", () => {
+      let current = "home";
+
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 100;
+        const sectionHeight = section.clientHeight;
+        if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+          current = section.getAttribute("id");
+          console.log("current =", current); // Prints an array
+        }
+      });
+
+      console.log("link =", navLinks); // Prints an array
+
+      navLinks.forEach(link => {
+        link.classList.remove("active");
+        if (link.getAttribute("href") === "#" + current) {
+          link.classList.add("active");
+        }
+      });
+    });
+  </script>
+
+
+
+  <!-- Numbers Animation -->
+  <script>
+    const counters = document.querySelectorAll('.achive-number');
+    const speed = 150; // smaller = faster
+
+    const animateCounters = () => {
+      counters.forEach(counter => {
+        const updateCount = () => {
+          const target = +counter.getAttribute('data-target');
+          const count = +counter.innerText;
+
+          const increment = target / speed;
+
+          if (count < target) {
+            counter.innerText = Math.ceil(count + increment);
+            requestAnimationFrame(updateCount);
+          } else {
+            counter.innerText = target + '+'; // add plus sign
+          }
+        };
+        updateCount();
+      });
+    };
+
+    // Only start counting when section is visible
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          animateCounters();
+          observer.disconnect(); // run once
+        }
+      });
+    }, { threshold: 0.5 });
+
+    observer.observe(document.querySelector('.achivement'));
+  </script>
+
+
+  <script>
+    // List of your app IDs
+    const appIds1 = [
+      "6572302971",
+      "1498192284",
+      "1361033757",
+      "6739422695",
+    ];
+    const appIds2 = [
+      "6464591918", // Goferjek Service Provider
+      "6464592264", // Another app (example)
+      "6464591494",
+      "1476042511",
+      "1499338254",
+      "1601610493",
+      "6468250764",
+      "6744969461",
+    ];
+
+    const appsGrid1 = document.getElementById("appsGrid1");
+    const appsGrid2 = document.getElementById("appsGrid2");
+
+    appIds1.forEach(id => {
+      // Fetch app info from iTunes Lookup API
+      fetch(`https://itunes.apple.com/lookup?id=${id}`)
+        .then(response => response.json())
+        .then(data => {
+          if (data.results.length > 0) {
+            const app = data.results[0];
+
+            // Create app card
+            const card = document.createElement("div");
+            card.classList.add("app-card");
+            card.innerHTML = `
+            <img src="${app.artworkUrl100}" alt="${app.trackName} Icon">
+            <h3>${app.trackName}</h3>
+            <a href="${app.trackViewUrl}" target="_blank">
+              <img alt="Download on the App Store"
+                   src="Images/Appstore-Download.webp" />
+            </a>
+          `;
+            appsGrid1.appendChild(card);
+
+          }
+        })
+        .catch(err => console.error("Error fetching app info:", err));
+    });
+
+
+    appIds2.forEach(id => {
+      // Fetch app info from iTunes Lookup API
+      fetch(`https://itunes.apple.com/lookup?id=${id}`)
+        .then(response => response.json())
+        .then(data => {
+          if (data.results.length > 0) {
+            const app = data.results[0];
+
+            // Create app card
+            const card = document.createElement("div");
+            card.classList.add("app-card");
+            card.innerHTML = `
+            <img src="${app.artworkUrl100}" alt="${app.trackName} Icon">
+            <h3>${app.trackName}</h3>
+            <a href="${app.trackViewUrl}" target="_blank">
+              <img alt="Download on the App Store"
+                   src="Images/Appstore-Download.webp" />
+            </a>
+          `;
+            appsGrid2.appendChild(card);
+
+          }
+        })
+        .catch(err => console.error("Error fetching app info:", err));
+    });
+
+  </script>
+
+
+</body>
+
+</html>
