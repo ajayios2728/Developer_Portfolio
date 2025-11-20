@@ -68,6 +68,19 @@ h1, h2, h3 {
   box-shadow: 0 0 3px rgb(255, 255, 255);
 }
 
+.Top-card {
+  background: var(--card);
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  border-radius: 100px;
+  box-shadow: var(--shadow);
+  font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+
 .brand {
   display: flex;
   align-items: center;
@@ -117,12 +130,16 @@ a.nav-link.active {
 }
 
 .achivement {
+  background: var(--card);
+  /* display: flex; */
   text-align: center;
   padding: 40px 20px;
   border-radius: 20px;
-  backdrop-filter: blur(10px);
-  font-weight: 700;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  /* backdrop-filter: blur(10px); */
+  /* font-weight: 700; */
+  /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); */
+  box-shadow: var(--shadow);
+  font-weight: bold;
 }
 
 .innerAchive {
